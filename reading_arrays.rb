@@ -12,21 +12,21 @@ def first_student_by_index
 end
 
 def fourth_student_by_index
-   STUDENT_NAMES[3]
+   $STUDENT_NAMES[3]
 end
 
 def last_student_by_index
- STUDENT_NAMES[5]
+ $STUDENT_NAMES[5]
 end
 
 def first_student_by_method
-   STUDENT_NAMES.first
+   $STUDENT_NAMES.first
 end
 
 def last_student_by_method
- STUDENT_NAMES.last
+ $STUDENT_NAMES.last
 end
 
 def first_second_and_third_students
-  STUDENT_NAMES[0..2]
+  $STUDENT_NAMES[0..2]
 end
