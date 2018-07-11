@@ -1,4 +1,4 @@
-STUDENT_NAMES = [
+$STUDENT_NAMES = [
   "Adele",
   "Beyoncé",
   "Cardi B",
@@ -8,7 +8,7 @@ STUDENT_NAMES = [
 ]
 
 def first_student_by_index
-   STUDENT_NAMES[0]
+   $STUDENT_NAMES[0]
 end
 
 def fourth_student_by_index
